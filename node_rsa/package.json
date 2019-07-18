@@ -1,0 +1,19 @@
+{
+  "author": "chthollys",
+  "name": "node_rsa",
+  "version": "1.0.0",
+  "description": "an nodejs rsa file transmission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "rsa"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "js-base64": "^2.4.5",
+    "node-rsa": "^1.0.0"
+  }
+}
