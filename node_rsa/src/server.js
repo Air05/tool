@@ -53,7 +53,7 @@ var server = net.createServer((socket) => {
 				//关闭连接后
 		    socket.on('end', () => {
 		        //console.log('Client disconnected');
-						socket.destroy()
+					socket.destroy();
 		    });
 				//错误处理
 				socket.on('error', (error) => {
