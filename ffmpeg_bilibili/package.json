@@ -1,0 +1,14 @@
+{
+  "name": "ffmpeg_bilibili",
+  "version": "1.0.0",
+  "description": "将bilibili的缓存视频文件转成mp4文件（需要在和缓存文件同级目录）",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "air05",
+  "license": "MIT",
+  "devDependencies": {
+    "node-cmd": "^3.0.0"
+  }
+}
